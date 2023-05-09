@@ -1,0 +1,38 @@
+:root {
+    /* FONTS */
+    --font-titulo: "Roboto";
+    --font-menu: "Inter";
+
+    /* COLORS */
+    --color-white1: #F1EFEE;
+    --color-white2: #FEFDF7;
+    --color-menu: #5E5A73;
+    --color-transp: #000000 50;
+    --color-primary: #BBC648;
+    --color-secundary: #1D00F9;
+
+    /* FONT SIZES */    
+    /*? web*/
+    --font-size-titulos-secundarios: 50px;
+    --font-size-titulo-principal: 115px;
+    --font-size-textos-tarjetas: 19px;
+    --font-size-numeros-tarjetas: 30px;
+    --font-size-menu: 16px;
+    --font-size-logos: 50px;
+    /*? mobile*/
+    --font-size-titulos-secundarios: 19px;
+    --font-size-titulo-principal: 50px;
+    --font-size-textos-tarjetas: 16px;
+    --font-size-numeros-tarjetas: 16px;
+    --font-size-menu: 12px;
+    --font-size-logos: 20px;
+
+    /* PADDINGS */
+    --padding-xxs:8px;
+    --padding-xs: 15px;
+    --padding-sm: 35px;
+    --padding-md: 40px;
+
+    /* BORDER RADIUS */
+    
+}
