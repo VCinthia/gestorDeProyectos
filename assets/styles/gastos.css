@@ -1,0 +1,52 @@
+/*TODO: GASTOS*/
+.box-gastos {
+    background-color: white;
+    background-image: var(--image-gastos);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding: var(--padding-content);
+
+    flex: 1;
+
+}
+
+.box-title {
+    font-size: var(--font-size-textos-tarjetas);
+    color: var(--color-secondary);
+    font-weight: bold;
+    padding-bottom: var(--padding-content);
+
+    align-items: left;
+}
+
+.data-gastos{
+    display: table;
+    width: 100%;
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: space-between;
+    
+}
+
+.col-gastos{
+    /* display: table-cell; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    
+    padding-bottom: 4px;    
+}
+
+.col-gastos:nth-child(2) {
+    text-align: right;
+}
+
+.modificación{
+    background-color: var(--color-secondary);
+    padding: var(--padding-xxs);
+    margin-top: 20px;
+    /* background-color: var(--color-transp); */
+    opacity: 0.50;
+}

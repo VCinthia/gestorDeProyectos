@@ -1,0 +1,20 @@
+{
+    "proyectos" : [
+        {
+            "id" : 1,
+            "nombre" : "Dare To",
+            "fecha" : "01/01/2023",
+            "cargaHrs" : 60,
+            "valorHora" : 0.00,
+            "adicional" : 0.00,
+            "valorProy" : 1600.00,
+            "descripcion" : "Bla, bla bla bla.",
+            "img" : "https://i.pinimg.com/564x/21/03/38/210338ba1549616f6cb77ef37daca63a.jpg",
+            "estado" : {
+                "enviado" : 1,
+                "aprobado" : 1,
+                "finalizado" : 0
+            }
+        }
+    ]
+}

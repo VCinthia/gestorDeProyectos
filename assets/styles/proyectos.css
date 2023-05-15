@@ -1,0 +1,80 @@
+/*TODO: PORTADA*/
+
+.portada {
+    /* position: absolute; */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    /*?ver como centrar en portada todo su contenido*/
+    width: 100%;
+    height: 210px;
+    left: 0px;
+    top: 0px;
+
+    background: var(--color-primary);
+}
+
+.portada-title {
+    padding: var(--padding-content);
+    font-size: var(--font-size-titulo-principal);
+    color: var(--color-secondary);
+}
+
+.secondary-text {
+    padding: var(--padding-content);
+    font-size: var(--font-size-textos-tarjetas);
+    color: var(--color-white2);
+}
+
+
+/*TODO: PROYECTOS*/
+
+.last-proy,
+.all-proy {
+    margin: 40px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.secondary-title {
+    font-size: var(--font-size-textos-tarjetas);
+    color: var(--color-menu);
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+
+    align-items: left;
+}
+
+.all-box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 0px;
+    gap: 4px;
+
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.box-proy {
+    flex: 1;
+    /* width: 110px;*/
+    height: 110px; 
+    
+}
+
+.box-proy img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.data-proy{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}

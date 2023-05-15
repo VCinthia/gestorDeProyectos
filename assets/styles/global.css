@@ -1,34 +1,42 @@
 :root {
     /* FONTS */
-    --font-titulo: "Roboto";
+    --font-textos: "Roboto";
     --font-menu: "Inter";
 
     /* COLORS */
     --color-white1: #F1EFEE;
     --color-white2: #FEFDF7;
     --color-menu: #5E5A73;
-    --color-transp: #000000 50;
+    --color-transp: rgba(0, 0, 0, 0.5);
     --color-primary: #BBC648;
-    --color-secundary: #1D00F9;
+    --color-secondary: #1D00F9;
+
+    --opacity-back: 0.18;
+    --image-back: url('../img/cuadriculado-byn.jpg');
+    --image-gastos: 
+    url('https://i.pinimg.com/564x/45/3d/dd/453ddd60bb56bf1ead30b83ea7ed8cda.jpg');
+    /* url('https://i.pinimg.com/564x/2d/85/14/2d8514e7d5bea2dee7e69d1cfd926aca.jpg'); */
 
     /* FONT SIZES */    
     /*? web*/
-    --font-size-titulos-secundarios: 50px;
-    --font-size-titulo-principal: 115px;
+    --font-size-titulos-secundarios: 30px;
+    --font-size-titulo-principal: 50px;
     --font-size-textos-tarjetas: 19px;
     --font-size-numeros-tarjetas: 30px;
     --font-size-menu: 16px;
     --font-size-logos: 50px;
+    --font-size-footer: 14px;
     /*? mobile*/
-    --font-size-titulos-secundarios: 19px;
-    --font-size-titulo-principal: 50px;
-    --font-size-textos-tarjetas: 16px;
-    --font-size-numeros-tarjetas: 16px;
-    --font-size-menu: 12px;
-    --font-size-logos: 20px;
+    --font-mb-size-titulos-secundarios: 19px;
+    --font-mb-size-titulo-principal: 50px;
+    --font-mb-size-textos-tarjetas: 16px;
+    --font-mb-size-numeros-tarjetas: 16px;
+    --font-mb-size-menu: 12px;
+    --font-mb-size-logos: 20px;
 
     /* PADDINGS */
-    --padding-xxs:8px;
+    --padding-content: 20px;
+    --padding-xxs: 8px;
     --padding-xs: 15px;
     --padding-sm: 35px;
     --padding-md: 40px;
