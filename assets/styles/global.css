@@ -7,12 +7,14 @@
     --color-white1: #F1EFEE;
     --color-white2: #FEFDF7;
     --color-menu: #5E5A73;
+    --color-grey: #8b8991;
     --color-transp: rgba(0, 0, 0, 0.5);
     --color-primary: #BBC648;
     --color-secondary: #1D00F9;
 
     --opacity-back: 0.18;
     --image-back: url('../img/cuadriculado-byn.jpg');
+    --imagen-n-proy: url('https://i.pinimg.com/564x/ad/42/cb/ad42cb866beb89ea2b7381a61809dd75.jpg');
     --image-gastos: 
     url('https://i.pinimg.com/564x/45/3d/dd/453ddd60bb56bf1ead30b83ea7ed8cda.jpg');
     /* url('https://i.pinimg.com/564x/2d/85/14/2d8514e7d5bea2dee7e69d1cfd926aca.jpg'); */

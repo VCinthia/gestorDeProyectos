@@ -1,0 +1,72 @@
+/*TODO: NUEVO PROYECTO*/
+.box-n-proy {
+    background-color: white;
+    background-image: var(--imagen-n-proy);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding: var(--padding-content);
+
+    flex: 1;
+
+}
+
+.box-title {
+    font-size: var(--font-size-textos-tarjetas);
+    color: var(--color-secondary);
+    font-weight: bold;
+    padding-bottom: var(--padding-content);
+
+    align-items: left;
+}
+
+.data-n-proy{
+    display: table;
+    width: 100%;
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: space-between;
+    
+}
+
+.col-n-proy{
+    /* display: table-cell; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    
+    padding-bottom: 4px;    
+}
+
+.col-n-proy:nth-child(2) {
+    text-align: right;
+}
+
+.modificación{
+    background-color: var(--color-secondary);
+    padding: var(--padding-xxs);
+    margin-top: 20px;
+    /* background-color: var(--color-transp); */
+    opacity: 0.50;
+}
+
+.crud-save{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.crud-save .back{
+    color: brown;
+}
+
+.crud-save .save{
+    color: var(--color-secondary);
+}
+
+.fa-arrow-left,.fa-arrow-right{
+    margin-left: 5px;
+    margin-right: 5px;
+}

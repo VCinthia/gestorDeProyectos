@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>👾 Gestor De Proyectos - Proyectos</title>
+    <title>👾 Gestor De Proyectos - Gastos</title>
 
     <!-- STYLES -->
     <link rel="stylesheet" href="../assets/styles/global.css" />
     <link rel="stylesheet" href="../assets/styles/style.css" />
     <link rel="stylesheet" href="../assets/styles/proyectos.css" />
+    <link rel="stylesheet" href="../assets/styles/new-proy.css" />
 
     <!-- FONTS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
@@ -25,11 +26,11 @@
             <li><a href="../index.html" id="inicio">
                     <i class="fas fa-home"></i>
                     Inicio</a></li>
-            <li><a href="#" id="proyectos" class="links--hide">
+            <li><a href="proyectos.html" id="proyectos" class="links--hide">
                     <i class="fas fa-briefcase"></i>
                     Proyectos</a></li>
             <!-- Mostrar a logeados-->
-            <li><a href="gastos.html" id="gastos" class="links--hide">
+            <li><a href="#" id="gastos" class="links--hide">
                     <i class="fas fa-chart-pie"></i>
                     Gastos</a></li><!-- Mostrar a logeados-->
             <li><a href="404.html" class="links--hide">
@@ -83,108 +84,83 @@
 
         <!-- SECCION PORTADA -->
         <div class="portada">
-            <div class="portada-title">Proyectos</div>
-            <div>
-                <p class="secondary-text">
-                    Aqui puedes ver detalles de tus proyectos.
-                </p>
-
-            </div>
+            <div class="portada-title">Nuevo Proyecto</div>
+            <p class="secondary-text">
+                Carga los datos de tu nuevo proyecto.
+            </p>
         </div>
 
         <!-- SECCION ULTIMO PROY -->
         <div class="all-proy">
-            <div class="all-box">
-                <div class="box-data ">
-                    <div class="data-proy ">
-                        <div class="secondary-title ">
-                            <h3>Último proyecto</h3>
-                        </div>
-                        <div class="option-crud">
-                            <a class="crud-create" href="./crear-editar-proyecto.html">
-                                + Crear proyecto
-                            </a>
-                        </div>
-                    </div>
-                    <!-- <div>
-                        <p class="links crud-create">
-                            Crear proyecto
-                        </p>
-                    </div> -->
-                </div>
-            </div>
-            <div class="all-box">
-                <div class="box-proy">
-                    <div class="option-crud">
-                        <img src="https://i.pinimg.com/564x/1f/f5/72/1ff572186fcfda964378c39b6aa8e91c.jpg"
-                            alt="img-proy">
-                        <div class="crud-delete">
-                            <a class="" href=""><i class="fas fa-trash-alt"></i></a>
-                        </div>
-                        <div class="crud-edit">
-                            <a class="" href="./crear-editar-proyecto.html"><i class="fas fa-pencil-alt"></i></a>
-                        </div>                        
-                    </div>
-                    <div>
-                        <div class="data-proy  ">
-                            <p>Ultima modificación:</p>
-                            <p>01/01/23</p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- SECCION LOS PROY EN CURSO -->
-        <div class="all-proy">
             <div class="secondary-title">
-                <h3>Proyectos en curso</h3>
+                <h3>Nuevo Proyecto</h3>
             </div>
-
             <div class="all-box">
-                <div class="box-proy">
-                    <img src="https://i.pinimg.com/564x/3e/42/4a/3e424a9340fc4da5bc80717839eac13d.jpg" alt="img-proy">
-                    <div class="data-proy">
-                        <p>Nombre </p>
+                <div class="box-n-proy">
+                    <p class="box-title">
+                        Datos del proyecto:
+                    </p>
+
+                    <table class="data-n-proy">
+                        <tr>
+                            <td class="col-n-proy">Nombre</td>
+                            <td class="col-n-proy">#DTIYS Mechi Baz</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Comitente</td>
+                            <td class="col-n-proy">@OpalDev</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Fecha de Entrega</td>
+                            <td class="col-n-proy">01-01-23</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Carga Horaria</td>
+                            <td class="col-n-proy">20 hrs</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Valor Hora</td>
+                            <td class="col-n-proy">$100,00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Valor Estimativo</td>
+                            <td class="col-n-proy">$2.000,00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Valor Proyecto</td>
+                            <td class="col-n-proy">$2.500,00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Cargar Imagen</td>
+                            <td class="col-n-proy">url IMG</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Descripción</td>
+                            <td class="col-n-proy">Ilustración para #DTIYS MechiBaz</td>
+                        </tr>
+                        <!-- <tr>
+                            <td class="col-n-proy">Enviado</td>
+                            <td class="col-n-proy">No</td>
+                        </tr>
+                        <tr>
+                            <td class="col-n-proy">Aprobado</td>
+                            <td class="col-n-proy">No</td>
+                        </tr> -->
+                    </table>
+
+                    <!--ultima mod.-->
+                    <div class="data-proy modificación">
+                        <p>Fecha de Creación:</p>
+                        <p>01/02/23</p>
                     </div>
                 </div>
 
-                <div class="box-proy">
-                    <img src="https://i.pinimg.com/564x/b2/a4/bc/b2a4bcd7e6410ff8113727561c1f8d21.jpg" alt="img-proy">
-                    <div class="data-proy">
-                        <p>Nombre </p>
-                    </div>
-                </div>
             </div>
-        </div>
-
-        <!-- SECCION PROY FINALIZADOS -->
-        <div class="all-proy">
-            <div class="secondary-title">
-                <h3>Proyectos finalizados</h3>
-            </div>
-
-            <div class="all-box">
-                <div class="box-proy">
-                    <img src="https://i.pinimg.com/564x/46/fb/d5/46fbd5ea7e2ebb6e9267dcc110923bad.jpg" alt="img-proy">
-                    <div class="data-proy">
-                        <p>Nombre </p>
-                    </div>
-                </div>
-
-                <div class="box-proy">
-                    <img src="https://i.pinimg.com/564x/18/c2/ce/18c2ce541931e38f0275d64313956ca2.jpg" alt="img-proy">
-                    <div class="data-proy">
-                        <p>Nombre </p>
-                    </div>
-                </div>
-
-                <div class="box-proy">
-                    <img src="https://i.pinimg.com/564x/5a/81/18/5a811813f599f3e28abe0ee092f2da89.jpg" alt="img-proy">
-                    <div class="data-proy">
-                        <p>Nombre </p>
-                    </div>
+            <!--Editar-->
+            <div class="data-n-proy">
+                <div class="option-crud crud-save">
+                        <a class="back" href="./proyectos.html"><i class="fas fa-arrow-left"></i>Descartar</a>
+                        <a class="save" href="./proyectos.html">Guardar<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
