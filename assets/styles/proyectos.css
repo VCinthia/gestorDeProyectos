@@ -139,3 +139,28 @@
     /* Ajustar la posición horizontal */
     background-color: var(--color-menu);
 }
+
+.alert-box {
+    position: relative;
+    background-color: var(--color-transp-alert);
+    color: var(--color-white2);
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .alert-box .close-alert {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: var(--color-white2);
+  }
+  
+  .alert-box .primary-text {
+    font-weight: bold;
+  }
+  
+  .alert-box .alert-message {
+    margin-top: 5px;
+  }
+  

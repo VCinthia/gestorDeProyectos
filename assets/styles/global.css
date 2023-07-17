@@ -6,10 +6,11 @@
     /* COLORS */
     --color-white1: #F1EFEE;
     --color-white2: #FEFDF7;
-    --color-menu: #5E5A73;
+    --color-menu: #5e5a73;
     --color-grey: #8b8991;
     --color-transp: rgba(0, 0, 0, 0.5);
-    --color-primary: #BBC648;
+    --color-transp-alert: rgba(94, 90, 115, 0.7);
+    --color-primary: #bbc648;
     --color-secondary: #1D00F9;
 
     --opacity-back: 0.18;
