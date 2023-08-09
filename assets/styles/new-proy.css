@@ -50,13 +50,13 @@ textarea {
     outline: none;
     text-align: right;
     cursor: pointer;
-    color: var(--color-grey);
+    color: var(--color-ter);
     /* background-color: var(--color-grey); */
     /* border-radius: 5px; */
     padding: 2px;
 }
 input::placeholder, textarea::placeholder{
-    color: var(--color-grey);
+    color: var(--color-ter);
 }
 
 

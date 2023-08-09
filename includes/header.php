@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/styles/proyectos.css" />
     <link rel="stylesheet" href="./assets/styles/new-proy.css" />
     <link rel="stylesheet" href="./assets/styles/gastos.css" />
+    <link rel="stylesheet" href="./assets/styles/register.css" />
 
     <!-- FONTS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">

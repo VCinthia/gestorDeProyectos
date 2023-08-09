@@ -6,6 +6,15 @@
 
     <div class="background-element "><!--content-body-->
 
+    <!-- SECCION ALERTAS -->
+    <?php if(isset($_SESSION['message'])) {?>
+                <div class="alert-box">
+                    <div class="close-alert" onclick="closeAlert()">x</div>
+                    <div class="primary-text">Alerta:</div>
+                    <div class="alert-message"><?= $_SESSION['message'] ?></div>
+                </div>
+            <?php  session_unset(); } ?> 
+
         <!-- SECCION PORTADA -->
 
         <div class="portada-index">
@@ -57,7 +66,8 @@
 
     <!-- SCRIPTS -->
     <script src="./assets/js/fontawesome.all.min.js"></script>
-
+    <script src="./assets/js/function.js"></script>
+    
 </body>
 
 </html>

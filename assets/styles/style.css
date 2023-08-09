@@ -147,3 +147,33 @@ footer{
     align-items: center;
 
 }
+
+/* Ocultar las flechas de incremento/decremento en campos de tipo number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  appearance: textfield; /* Otros navegadores */
+}
+
+/* .divider{
+    border-bottom: 3px;
+    border-color: red;
+} */
+
+.pesos::before {
+    content: "$";
+    position: absolute;
+    padding-left: 5px;
+    color: var(--color-ter);
+}
+
+.horas::before {
+    content: "Hrs.";
+    position: absolute;
+    padding-left: 5px;
+    color: var(--color-ter);
+}

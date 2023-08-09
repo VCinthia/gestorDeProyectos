@@ -1,0 +1,72 @@
+/* .all-register{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-style: dotted;
+
+} */
+
+.register-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border-style: dashed;
+    border-color: blueviolet; */
+    margin-top: 20px;
+}
+
+.register-input{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    margin: 40px 0px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+
+}
+
+.register-input input {
+    padding: 20px;
+    border: none;
+    width: 40vh;
+    justify-content: space-between;
+    
+}
+
+.btns-register{
+    /* border-style: dashed;
+    border-color: blueviolet; */
+    
+    justify-content: space-between; 
+    
+}
+
+button{    
+    border: none;
+    font: var(--font-size-titulo-principal);
+    background-color:transparent;
+    font-weight: 400;
+    
+    padding:  10px 0px ; /* Ajusta el espaciado interno según tus necesidades */
+    width: 135px;
+    margin-bottom: 40px;  
+    color: var(--color-white2); 
+    cursor: pointer;
+}
+
+.btn-login{
+    
+    color: var(--color-primary);
+    text-align: end;
+}
+
+.btn-register{
+    
+    color: var(--color-secondary);
+    text-align: start;
+}
+

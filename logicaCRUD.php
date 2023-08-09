@@ -2,6 +2,8 @@
 
 include("db.php");
 
+//$userID = $_SESSION['user_id'];
+
 //CREATE
 if (isset($_POST['save-proy'])){
     $nombre = $_POST['nombre'];
@@ -13,12 +15,14 @@ if (isset($_POST['save-proy'])){
     $valor_proyecto = $_POST['valor_proyecto'];
     $url_imagen = $_POST['url_imagen'];
     $descripcion = $_POST['descripcion'];
+    //$useridproy =  $_POST['user_id'];
+    $useridproy = $_SESSION['user_id'];
 
-    $query = "INSERT INTO proyectos(nombre, comitente, fecha_entrega, carga_horaria, valor_hora, valor_estimativo, valor_proyecto, url_imagen, descripcion) VALUES ('$nombre', '$comitente', '$fecha_entrega', '$carga_horaria', '$valor_hora', '$valor_estimativo', '$valor_proyecto', '$url_imagen', '$descripcion')";
+    $query = "INSERT INTO proyectos(nombre, comitente, fecha_entrega, carga_horaria, valor_hora, valor_estimativo, valor_proyecto, url_imagen, descripcion, user_id) VALUES ('$nombre', '$comitente', '$fecha_entrega', '$carga_horaria', '$valor_hora', '$valor_estimativo', '$valor_proyecto', '$url_imagen', '$descripcion', $useridproy)";
 
     $result = mysqli_query($conn, $query);
     if(!$result) {
-        $_SESSION['message'] = 'Falló la carga del proyecto.';
+        $_SESSION['message'] = 'Falló la creación del proyecto.' . $query;
         die(header("Location: proyectos.php"));
         
     }
